@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="apis/css/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap-theme.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap-theme.min.css" type="text/css"/>
+<script type="text/javascript" src="apis/js/bootstrap.js"></script>
+<script type="text/javascript" src="apis/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="apis/js/npm.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>
+Sample Bootstrap
+</title>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-defaults">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contribute</a></li>
+				</ul>
+			</div>
+		</na
+		v>
+	</div>
+</body>

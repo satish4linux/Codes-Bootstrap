@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="apis/css/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap-theme.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap-theme.min.css" type="text/css"/>
+<script type="text/javascript" src="apis/js/bootstrap.js"></script>
+<script type="text/javascript" src="apis/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="apis/js/npm.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>
+Sample Bootstrap
+</title>
+</head>
+<body>
+	<div clas="container">
+		<h2><small>Collapse using button</small></h2>
+		<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#id1">Click Here</button>
+		<p id="id1" class="collapse">This is the <strong>hidden text</strong> which you wanted to see.</p>
+		<h2><small>Collapse using <code>a</code> tag</small></h2>
+		<a href="#id1" data-toggle="collapse" class="btn btn-info">This is a tag</a>
+		<h2><small>Panel Collapse</small></h2>
+		<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse1">Collapsible panel</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">Panel Body</div>
+      <div class="panel-footer">Panel Footer</div>
+    </div>
+  </div>
+</div>
+<h2><small>Collapse List Group</small></h2>
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse2">Collapsible list group</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <ul class="list-group">
+        <li class="list-group-item">One</li>
+        <li class="list-group-item">Two</li>
+        <li class="list-group-item">Three</li>
+      </ul>
+      <div class="panel-footer">Footer</div>
+    </div>
+  </div>
+</div>
+<h2><small>Accordion</small></h2>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Collapsible Group 1</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        Collapsible Group 2</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Collapsible Group 3</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="apis/css/bootstrap.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap-theme.css" type="text/css"/>
+<link rel="stylesheet" href="apis/css/bootstrap-theme.min.css" type="text/css"/>
+<script type="text/javascript" src="apis/js/bootstrap.js"></script>
+<script type="text/javascript" src="apis/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="apis/js/npm.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>
+Sample Bootstrap
+</title>
+</head>
+<body>
+	<div class="container">
+
+		
+		<h2><small>Collapsable Navbar fixed at top</small></h2>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<div class="collapse navbar-collapse" id="mynav">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="bs_alert.html">Introduction</a></li>
+						<li><a href="#">Constitution</a></li>
+					</ul></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Contribute</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>LogIn</a></li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+		<h2><small>Default Navbar</small></h2>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">Readings</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Feedback</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h2><small>Inverse Navbar</small></h2>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Contribute</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h2><small>Inverse Navbar with dropdown menu</small></h2>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="bs_alert.html">Introduction</a></li>
+						<li><a href="#">Constitution</a></li>
+						<li><a href="#">Alumni Association</a></li>
+					</ul></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Contribute</a></li>
+				</ul>
+			</div>
+		</nav>
+		<h2><small>Right Aligned Navbar</small></h2>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Introduction</a></li>
+						<li><a href="#">Constitution</a></li>
+						<li><a href="#">Alumni Association</a></li>
+					</ul></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Contribute</a></li>
+				</ul>
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="search">
+						<input type="submit" class="form-control btn btn-success" value="Submit">
+					</div></form>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span>SignUp</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>LogIn</a></li>
+				</ul>
+				<button class="navbar-btn btn btn-primary" type="button">Button</button>
+			</div>
+		</nav>
+		<h2><small>Inverse Navbar with text</small></h2>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">ALUMNI NITP</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li><a href="#">Home</a></li>
+					<li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us<span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Introduction</a></li>
+						<li><a href="#">Constitution</a></li>
+						<li><a href="#">Alumni Association</a></li>
+					</ul></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Contribute</a></li>
+				</ul>
+				<p class="navbar-text">this is sample text</p>
+			</div>
+		</nav>
+		
+	</div>
+</body>
+</html>
