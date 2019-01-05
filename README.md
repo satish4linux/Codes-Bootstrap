@@ -1,3 +1,3 @@
 # Codes-Bootstrap
 
-My library of creating different elements using Twitter BootStrap
+My library for creating different elements using Twitter BootStrap
